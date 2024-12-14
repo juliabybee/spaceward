@@ -31,7 +31,7 @@ public class StudentController {
 
     @GetMapping(value={"/", ""})
     public String index() {
-        return "redirect:/students/list";
+        return "students/list";
     }
 
     @GetMapping(value={"/list", "/list/"})
